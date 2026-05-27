@@ -172,22 +172,6 @@ beyond-vision/
 
 ---
 
-# Project Screenshots / Output
-
-## Login Page
-![Login Page](./screenshots/login.png)
-
-## Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
-
-## Quiz Interface
-![Quiz Interface](./screenshots/quiz-interface.png)
-
-## Results Page
-![Results Page](./screenshots/results.png)
-
----
-
 # Future Scope
 
 - Multi-language voice support
