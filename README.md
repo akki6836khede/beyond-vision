@@ -1,36 +1,204 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Beyond Vision
 
-## Getting Started
+## A Proctored Quiz Platform for Visually Impaired Users
 
-First, run the development server:
+Beyond Vision is an accessible web-based proctored quiz platform specially designed for visually impaired users. The platform enables users to independently attempt online quizzes using Text-to-Speech (TTS) and Speech-to-Text (STT) technologies while maintaining examination integrity through browser-based proctoring.
+
+The project combines accessibility-first design, adaptive testing, and secure authentication to provide an inclusive online examination environment.
+
+---
+
+# Technology Stack and Tools Used
+
+## Frontend
+- Next.js 14
+- React.js
+- JavaScript
+- Tailwind CSS
+
+## Backend
+- Next.js API Routes
+- Node.js
+- REST APIs
+
+## Database
+- MongoDB Atlas
+- Mongoose
+
+## Authentication
+- JWT Authentication
+- HTTP-only Cookies
+
+## Accessibility APIs
+- Web Speech API
+  - SpeechSynthesis (TTS)
+  - SpeechRecognition (STT)
+
+## Additional Tools
+- SWR (Data Fetching)
+- Postman (API Testing)
+- NVDA Screen Reader (Accessibility Testing)
+
+---
+
+# Features and Functionalities Implemented
+
+## Accessibility Features
+- Text-to-Speech support for reading questions aloud
+- Speech-to-Text support for answering questions via voice
+- Keyboard-accessible navigation
+- Screen-reader friendly interface
+- High-contrast dark mode UI
+
+## Quiz Features
+- Role-based authentication (Admin/User)
+- Quiz creation and management
+- Adaptive difficulty progression system
+- Real-time countdown timer
+- Automatic quiz submission
+
+## Adaptive Difficulty Engine
+- Questions divided into:
+  - Easy
+  - Medium
+  - Hard
+- Correct answers increase difficulty level
+- Incorrect answers decrease difficulty level
+- Dynamic Computer Adaptive Testing (CAT)
+
+## Proctoring Features
+- Fullscreen enforcement
+- Tab switch detection
+- Window blur detection
+- Auto-submit after 3 violations
+
+## Admin Functionalities
+- Create and schedule quizzes
+- Add questions with difficulty levels
+- Monitor participant scores
+- Share unique Admin ID
+
+## User Functionalities
+- Search quizzes using Admin ID
+- Attempt quizzes using voice or clicks
+- Receive instant score breakdown
+
+---
+
+# Installation / Execution Steps
+
+## Step 1: Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+## Step 2: Navigate to Project Directory
+
+```bash
+cd beyond-vision
+```
+
+## Step 3: Install Dependencies
+
+```bash
+npm install
+```
+
+## Step 4: Configure Environment Variables
+
+Create a `.env.local` file and add:
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+```
+
+## Step 5: Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Step 6: Open Application
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+http://localhost:3000
+```
 
-## Learn More
+## Production Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Folder Structure
 
-## Deploy on Vercel
+```bash
+beyond-vision/
+│
+├── app/
+│   ├── api/
+│   ├── login/
+│   ├── register/
+│   └── dashboard/
+│
+├── components/
+├── models/
+├── public/
+├── lib/
+├── styles/
+├── package.json
+├── tailwind.config.js
+├── next.config.js
+└── README.md
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Team Members
+
+| Name | Enrollment Number |
+|------|-------------------|
+| Atharv Khede | EN23CS301219 |
+| Atul Raghuwanshi | EN23CS301230 |
+| Aviral Pratap Singh | EN23CS301235 |
+
+---
+
+# Project Screenshots / Output
+
+## Login Page
+![Login Page](./screenshots/login.png)
+
+## Admin Dashboard
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+## Quiz Interface
+![Quiz Interface](./screenshots/quiz-interface.png)
+
+## Results Page
+![Results Page](./screenshots/results.png)
+
+---
+
+# Future Scope
+
+- Multi-language voice support
+- Braille display integration
+- AI-powered question generation
+- Mobile application support
+- Advanced AI-based proctoring
+- Analytics dashboard
+
+---
+
+# License
+
+This project is developed for academic and educational purposes.
