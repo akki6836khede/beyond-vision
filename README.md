@@ -171,6 +171,24 @@ beyond-vision/
 | Aviral Pratap Singh | EN23CS301235 |
 
 ---
+# Project Screenshots / Output
+
+## Login Page
+<img width="100%" alt="Login Page" src="C:\Users\athar\OneDrive\Pictures\Screenshots 1\Screenshot 2026-04-19 110334.png" />
+
+## Register Page
+<img width="100%" alt="Register Page" src="C:\Users\athar\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-27 180605.png" />
+
+## Admin Dashboard
+<img width="100%" alt="Admin Dashboard" src="C:\Users\athar\OneDrive\Pictures\Screenshots 1\Screenshot 2026-04-19 110403.png" />
+
+## Quiz Interface
+<img width="100%" alt="Quiz Interface" src="C:\Users\athar\OneDrive\Pictures\Screenshots 1\Screenshot 2026-04-19 110448.png" />
+
+## Results Page
+<img width="100%" alt="Results Page" src="C:\Users\athar\OneDrive\Pictures\Screenshots 1\Screenshot 2026-05-27 182208.png" />
+
+---
 
 # Future Scope
 
