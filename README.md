@@ -36,8 +36,6 @@ The project combines accessibility-first design, adaptive testing, and secure au
 
 ## Additional Tools
 - SWR (Data Fetching)
-- Postman (API Testing)
-- NVDA Screen Reader (Accessibility Testing)
 
 ---
 
@@ -64,7 +62,6 @@ The project combines accessibility-first design, adaptive testing, and secure au
   - Hard
 - Correct answers increase difficulty level
 - Incorrect answers decrease difficulty level
-- Dynamic Computer Adaptive Testing (CAT)
 
 ## Proctoring Features
 - Fullscreen enforcement
